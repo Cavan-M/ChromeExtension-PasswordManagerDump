@@ -10,8 +10,8 @@ This tutorial will teach you how to get plaintext passwords from an unlocked Bit
 ### Prerequisites to this Tutorial:
 
  - Windbg is installed on the Host computer, how to install this software can be found [here](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/).
- - You have access to an elevated command prompt on the Target Computer, or can otherwise run commands with elevated priveleges
- - The Target computer has an internet connection 
+ - You have access to an elevated command prompt on the target Computer, or can otherwise run commands with elevated priveleges
+ - The target computer has an internet connection 
 
 ## Step 1: Get a Debugger to Copy Chrome Memory
 For this tutorial I'm going to use procdump, it's quite compact and doesn't require an installer, so it is perfect for this scenario. On the target computer, run the command:
