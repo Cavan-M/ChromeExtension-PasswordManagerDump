@@ -40,7 +40,7 @@ On the Host computer, open up Windbg and drag and drop the memory dump into the 
 
 In the command line of windbg, enter the following command:
 
-    s-a 0`00000000 L?5000000000000 'password".'
+    s-a 0`00000000 L?5000000000000 password".
 
 This searches for the ascii text that is correlated with the  from the first memory address, and the search will include all of the memory addresses in the dump, unless the file size exceeds ~5GB (but in that case you have a whole other issue).
 
