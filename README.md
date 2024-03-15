@@ -40,8 +40,15 @@ On the Host computer, open up Windbg and drag and drop the memory dump into the 
 
 In the command line of windbg, enter the following command:
 
-    s-a 0`00000000 L?5000000000000 password".
+    s-a 0`00000000 L?5000000000000 [KEYWORD]
 
-This searches for the ascii text that is correlated with the  from the first memory address, and the search will include all of the memory addresses in the dump, unless the file size exceeds ~5GB (but in that case you have a whole other issue).
+This searches for the ascii text that is correlated with the  from the first memory address, and the search will include all of the memory addresses in the dump, unless the file size exceeds ~5GB (but in that case you have a whole other issue). Sample keywords can be found in the examples for this repo.
 
 Copy down one of the memory addresses outputted from the previous command. Then go to View > Memory to open up the memory viewer. In the address input box, paste the address you just copied. From here you can see your vault in plaintext.
+
+From here you can use .writemem to write the memory to file for easy viewing, the syntax is as follows:
+
+    .writemem c:\path\to\save\export.txt startingAddress endingAddress
+
+You can find sample memory ranges for their corresponding dump file in the Info text document. I have a few examples here using different password managers, feel free to play around with the dumps. The usernames and passwords are fake.
+
