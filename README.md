@@ -1,4 +1,4 @@
-# Retrieving and Analyzing Memory to View Bitwarden Passwords
+# Retrieving and Analyzing Memory to View Passwords in a Password Manager
 
 ## About This Tutorial
 This tutorial will teach you how to get plaintext passwords from an unlocked Bitwarden Web Vault Chrome browser extension using memory analysis. The idea here is that this can be used as a payload for a RCE to get the  Bitwarden passwords of a computer in use. 
