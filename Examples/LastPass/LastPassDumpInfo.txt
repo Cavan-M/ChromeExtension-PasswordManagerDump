@@ -1,0 +1,6 @@
+000036e8`06ad2b51 000036e8`06ad3500 ENTIRE VAULT
+
+Notes: There is a nicely formatted json version of the vault, however the passwords remain encrypted.
+The only decoded passwords are stored in an obscure data structure.
+
+Keyword search: passworddec

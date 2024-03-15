@@ -1,0 +1,5 @@
+0000026f`005178b0 0000026f`0051aee5 ENTIRE VAULT
+
+NOTES: The entire bitwarden vault is present and nicely formated as JSON. This makes it an easy example
+
+Keyword search: password":

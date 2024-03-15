@@ -1,0 +1,24 @@
+00000167`00fad2c0 00000167`00fad3ef FACEBOOK
+
+00000167`00fad540 00000167`00fad664  GITHUB
+
+00000167`00facdc0 00000167`00facef7 SCOTIABANK
+
+00000167`00fad900 00000167`00fada31 GOOGLE
+
+00000167`00fadcc0 00000167`00faddee INSTAGRAM
+
+00000167`00fcb480 00000167`00fcb57e OUTLOOK
+
+00000167`00fcb680 00000167`00fcb6f1 TIKTOK
+
+00000167`00fcb900 00000167`00fcb971 TWITTER
+
+00000167`00f42990 00000167`00f42A19 FAKE VISA'=
+
+
+NOTES: Addresses are non-contiguous. There may be KBs of unrelated data between entries. 
+Many repeats throughout the entirety of the dump. likely related to various API calls to retreive and store them.
+
+Keyword Search: secret
+
